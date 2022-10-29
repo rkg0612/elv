@@ -10,8 +10,8 @@
                     <li><a href="{{ route('services') }}" class="nav-link px-2 text-white">Services</a></li>
                     <li><a href="{{ route('publications') }}" class="nav-link px-2 text-white">Publications</a></li>
                     <li><a href="{{ route('faq') }}" class="nav-link px-2 text-white">FAQ's</a></li>
-                    <li><a href="javascript:void(0);" class="nav-link px-2 text-white">Insights</a></li>
-                    <li><a href="javascript:void(0);" class="nav-link px-2 text-white">Apply</a></li>
+                    <li><a href="{{ route('insights') }}" class="nav-link px-2 text-white">Insights</a></li>
+                    <li><a href="{{ route('apply') }}" class="nav-link px-2 text-white">Apply</a></li>
                 </ul>
             </div>
         </div>

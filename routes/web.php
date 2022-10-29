@@ -14,8 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('apply', [PageController::class, 'apply'])->name('apply');
 Route::get('/', [PageController::class, 'landing'])->name('landing');
 Route::get('faq', [PageController::class, 'faq'])->name('faq');
+Route::get('insights', [PageController::class, 'insights'])->name('insights');
 Route::get('publications', [PageController::class, 'publications'])->name('publications');
 Route::get('services', [PageController::class, 'services'])->name('services');
 Route::get('team', [PageController::class, 'team'])->name('team');
