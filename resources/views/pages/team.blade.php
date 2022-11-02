@@ -18,26 +18,26 @@
         <h2 class="display-6">Executive Team</h2>
     </div>
     <div class="col-lg-3 text-center">
-        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-            alt="Generic placeholder image" width="140" height="140">
+        <img class="rounded-circle" src="{{asset('images/team/Bruce.JPG')}}"
+            alt="Bruce Caven" width="140" height="140">
         <h2>Bruce Caven</h2>
         <p>CEO</p>
     </div>
     <div class="col-lg-3 text-center">
-        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-            alt="Generic placeholder image" width="140" height="140">
+        <img class="rounded-circle" src="{{asset('images/team/Marie.JPG')}}"
+            alt="Marie LeBlanc" width="140" height="140">
         <h2>Marie LeBlanc</h2>
         <p>Head Of People</p>
     </div>
     <div class="col-lg-3 text-center">
-        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-            alt="Generic placeholder image" width="140" height="140">
+        <img class="rounded-circle" src="{{asset('images/team/Christina.JPG')}}"
+            alt="Christina Coombs" width="140" height="140">
         <h2>Christina Coombs</h2>
         <p>COO</p>
     </div>
     <div class="col-lg-3 text-center">
-        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-            alt="Generic placeholder image" width="140" height="140">
+        <img class="rounded-circle" src="{{asset('images/team/Eli.JPG')}}"
+            alt="Elijah Masek-Kelly" width="140" height="140">
         <h2>Elijah Masek-Kelly</h2>
         <p>Managing Partner</p>
     </div>
@@ -52,50 +52,50 @@
         <h2 class="display-6">Writing Team Trusted By Over 6000 Companies Over 12 Years In Business</h2>
     </div>
     <div class="col-lg-3 text-center">
-        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-            alt="Generic placeholder image" width="140" height="140">
+        <img class="rounded-circle" src="{{asset('images/team/Kyle.JPG')}}"
+            alt="Kyle Meagher" width="140" height="140">
         <h3>Kyle Meagher</h3>
         <p>Accounts Director</p>
     </div>
     <div class="col-lg-3 text-center">
-        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-            alt="Generic placeholder image" width="140" height="140">
+        <img class="rounded-circle" src="{{asset('images/team/Anastasiya.JPG')}}"
+            alt="Anastasiya Doroshenko" width="140" height="140">
         <h3>Anastasiya Doroshenko</h3>
         <p>SEO Content Strategist</p>
     </div>
     <div class="col-lg-3 text-center">
-        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-            alt="Generic placeholder image" width="140" height="140">
+        <img class="rounded-circle" src="{{asset('images/team/Suraj.JPG')}}"
+            alt="Suraj Gopal" width="140" height="140">
         <h3>Suraj Gopal</h3>
         <p>Marketing Director</p>
     </div>
     <div class="col-lg-3 text-center">
-        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-            alt="Generic placeholder image" width="140" height="140">
+        <img class="rounded-circle" src="{{asset('images/team/Johnny.JPG')}}"
+            alt="Johnny Kovacs" width="140" height="140">
         <h3>Johnny Kovacs</h3>
         <p>Managing Editor</p>
     </div>
     <div class="col-lg-3 text-center">
-        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-            alt="Generic placeholder image" width="140" height="140">
+        <img class="rounded-circle" src="{{asset('images/team/Athina.JPG')}}"
+            alt="Athina Crilley" width="140" height="140">
         <h3>Athina Crilley</h3>
         <p>Senior Writer</p>
     </div>
     <div class="col-lg-3 text-center">
-        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-            alt="Generic placeholder image" width="140" height="140">
+        <img class="rounded-circle" src="{{asset('images/team/Vikram.JPG')}}"
+            alt="Vikram Thapa" width="140" height="140">
         <h3>Vikram Thapa</h3>
         <p>Project Manager</p>
     </div>
     <div class="col-lg-3 text-center">
-        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-            alt="Generic placeholder image" width="140" height="140">
+        <img class="rounded-circle" src="{{asset('images/team/Monika.JPG')}}"
+            alt="Monika Manchanda" width="140" height="140">
         <h3>Monika Manchanda</h3>
         <p>Senior Writer</p>
     </div>
     <div class="col-lg-3 text-center">
-        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-            alt="Generic placeholder image" width="140" height="140">
+        <img class="rounded-circle" src="{{asset('images/team/Nicholas.JPG')}}"
+            alt="Nicholas Delvyn" width="140" height="140">
         <h3>Nicholas Delvyn</h3>
         <p>Business Development</p>
     </div>

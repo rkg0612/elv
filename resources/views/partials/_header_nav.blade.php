@@ -2,7 +2,7 @@
     <div class="container-fluid px-5">
         <div class="d-flex flex-wrap align-items-center justify-content-between">
             <a href="{{ route('landing') }}" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-                <h1>ELV</h1>
+                <img class="img-fluid" src="{{ asset('images/logo/ELV Official Logo White.png') }}" width="200px" alt="">
             </a>
             <div class="text-end">
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
