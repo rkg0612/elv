@@ -13,7 +13,7 @@
     </div>
 </div>
 <div class="position-relative overflow-hidden p-3 p-md-5 bg-light row justify-content-center text-center">
-    <div class="col-md-12 p-lg-5 text-center">
+    <div class="col-md-12 pb-5 pt-0 text-center">
         <h2 class="display-3 fw-normal">Executive Team</h2>
     </div>
     <div class="col-lg-3 text-center">
@@ -53,49 +53,49 @@
     <div class="col-lg-3 text-center">
         <img class="rounded-circle" src="{{asset('images/team/Kyle.JPG')}}"
             alt="Kyle Meagher" width="140" height="140">
-        <h5>Kyle Meagher</h5>
+        <h4>Kyle Meagher</h4>
         <p>Accounts Director</p>
     </div>
     <div class="col-lg-3 text-center">
         <img class="rounded-circle" src="{{asset('images/team/Anastasiya.JPG')}}"
             alt="Anastasiya Doroshenko" width="140" height="140">
-        <h5>Anastasiya Doroshenko</h5>
+        <h4>Anastasiya Doroshenko</h4>
         <p>SEO Content Strategist</p>
     </div>
     <div class="col-lg-3 text-center">
         <img class="rounded-circle" src="{{asset('images/team/Suraj.JPG')}}"
             alt="Suraj Gopal" width="140" height="140">
-        <h5>Suraj Gopal</h5>
+        <h4>Suraj Gopal</h4>
         <p>Marketing Director</p>
     </div>
     <div class="col-lg-3 text-center">
         <img class="rounded-circle" src="{{asset('images/team/Johnny.JPG')}}"
             alt="Johnny Kovacs" width="140" height="140">
-        <h5>Johnny Kovacs</h5>
+        <h4>Johnny Kovacs</h4>
         <p>Managing Editor</p>
     </div>
     <div class="col-lg-3 text-center">
         <img class="rounded-circle" src="{{asset('images/team/Athina.JPG')}}"
             alt="Athina Crilley" width="140" height="140">
-        <h5>Athina Crilley</h5>
+        <h4>Athina Crilley</h4>
         <p>Senior Writer</p>
     </div>
     <div class="col-lg-3 text-center">
         <img class="rounded-circle" src="{{asset('images/team/Vikram.JPG')}}"
             alt="Vikram Thapa" width="140" height="140">
-        <h5>Vikram Thapa</h5>
+        <h4>Vikram Thapa</h4>
         <p>Project Manager</p>
     </div>
     <div class="col-lg-3 text-center">
         <img class="rounded-circle" src="{{asset('images/team/Monika.JPG')}}"
             alt="Monika Manchanda" width="140" height="140">
-        <h5>Monika Manchanda</h5>
+        <h4>Monika Manchanda</h4>
         <p>Senior Writer</p>
     </div>
     <div class="col-lg-3 text-center">
         <img class="rounded-circle" src="{{asset('images/team/Nicholas.JPG')}}"
             alt="Nicholas Delvyn" width="140" height="140">
-        <h5>Nicholas Delvyn</h5>
+        <h4>Nicholas Delvyn</h4>
         <p>Business Development</p>
     </div>
 </div>
