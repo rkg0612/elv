@@ -262,10 +262,10 @@
         <a class="btn btn-outline-light" href="javascript:void(0);">Apply Today</a>
     </div>
 </div>
-<div class="position-relative overflow-hidden p-3 p-md-5 text-start bg-dark text-bg-light">
-    <h1 class="display-4">Executive Leadership Voice Agency</h1>
+<div class="position-relative overflow-hidden p-3 p-md-5 text-start bg-dark text-bg-dark text-center">
+    <h1 class="display-3">Executive Leadership Voice Agency</h1>
 </div>
-<div class="text-center">
+<div class="text-center p-3 p-md-5">
     <iframe width="854" 
         height="480"
         src="https://www.youtube.com/embed/Prb_l-NJ-A4?modestbranding&controls=0"
