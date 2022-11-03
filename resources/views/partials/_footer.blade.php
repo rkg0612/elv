@@ -15,6 +15,7 @@
                 <li class="nav-item"><a href="javascript:void(0);" class="nav-link px-2 text-muted">FAQ's</a></li>
                 <li class="nav-item"><a href="javascript:void(0);" class="nav-link px-2 text-muted">Insights</a></li>
                 <li class="nav-item"><a href="javascript:void(0);" class="nav-link px-2 text-muted">Apply</a></li>
+                <li class="nav-item"><a href="javascript:void(0);" class="nav-link px-2 text-muted">Confidentiality</a></li>
             </ul>
             <p class="text-center text-muted">&copy; 2022 ELV Agency</p>
         </footer>

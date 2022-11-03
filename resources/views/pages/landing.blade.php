@@ -264,8 +264,8 @@
 </div>
 <hr>
 <div class="text-center">
-    <iframe width="1280" 
-        height="720"
+    <iframe width="854" 
+        height="480"
         src="https://www.youtube.com/embed/Prb_l-NJ-A4?modestbranding&controls=0"
         title="YouTube video player"
         frameborder="0"
