@@ -252,21 +252,21 @@
 </svg>
 @endsection
 @section('content')
-<div class="position-relative overflow-hidden p-3 p-md-5 text-start bg-light">
+<div class="position-relative overflow-hidden p-3 p-md-5 text-start bg-light text-bg-dark" style="background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{asset('images/assets/Main 1 - Competitive Edge - ace out of sleeve.jpg')}}'); background-size: cover;">
     <div class="col-md-8 p-lg-5 my-5">
         <h1 class="display-4 fw-normal">Transforming Business Owners Into Top 1% Industry Experts</h1>
         <h2 class="display-6">We tell your story. The future of content marketing.</h2>
         <p class="lead fw-normal">
             ELV Agency engages your audience and enhances your brand through monthly expert thought leadership articles in the world's most powerful publications.
         </p>
-        <a class="btn btn-outline-secondary" href="javascript:void(0);">Apply Today</a>
+        <a class="btn btn-outline-light" href="javascript:void(0);">Apply Today</a>
     </div>
 </div>
 <hr>
 <div class="text-center">
-    <iframe width="560" 
-        height="315"
-        src="https://www.youtube.com/embed/NpEaa2P7qZI&controls=0"
+    <iframe width="1280" 
+        height="720"
+        src="https://www.youtube.com/embed/Prb_l-NJ-A4?modestbranding&controls=0"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -274,7 +274,7 @@
     </iframe>
 </div>
 <hr>
-<div class="position-relative overflow-hidden p-3 p-md-5 bg-dark text-bg-dark row">
+<div class="position-relative overflow-hidden p-3 p-md-5 bg-dark row" style="background:linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('{{asset('images/assets/Main 1 - first slider - woman leaning back .jpg')}}'); background-size: cover;">
     <div class="col-md-12 p-lg-5 my-5 text-end">
         <h2 class="display-6">Grow your audience. Enhance your brand. Skyrocket your sales.</h2>
         <p class="lead fw-normal">
@@ -283,7 +283,7 @@
         <p class="lead fw-normal">
             92% of decision makers say consuming thought leadership improves their respect for an organization.
         </p>
-        <a class="btn btn-outline-secondary" href="javascript:void(0);">See Our Work</a>
+        <a class="btn btn-outline-dark" href="javascript:void(0);">See Our Work</a>
     </div>
 </div>
 <div class="position-relative overflow-hidden p-3 p-md-5 bg-light row">

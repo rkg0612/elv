@@ -1,6 +1,6 @@
 @extends('layout.main')
 @section('content')
-<div class="position-relative overflow-hidden p-3 p-md-5 text-start bg-light">
+<div class="position-relative overflow-hidden p-3 p-md-5 text-start bg-light" style="background:linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('{{asset('images/assets/3 Services - header - light bulb.jpg')}}'); background-size: cover;">
     <div class="col-md-10 p-lg-5 my-5">
         <h1 class="display-4 fw-normal">Transforming Clients Into Top 1% Industry Experts Through Thought Leadership Content Marketing.</h1>
         <h2 class="display-6">We work with smart and innovative clients who want to demonstrate their industry authority through content marketing.</h2>
@@ -112,7 +112,7 @@
         </p>
     </div>
 </div>
-<div class="position-relative overflow-hidden p-3 p-md-5 text-start bg-light">
+<div class="position-relative overflow-hidden p-3 p-md-5 text-start text-bg-dark" style="background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{asset('images/assets/3 Service - what makes us different - high-fives.jpg')}}'); background-size: cover;">
     <div class="col-md-12 p-lg-5 my-5">
         <h1 class="display-4 fw-normal mb-4">What makes us different from every other content marketing agency?</h1>
         <h2 class="display-6 mt-4 mb-0">We're well connected.</h2>
