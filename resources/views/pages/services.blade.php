@@ -18,80 +18,61 @@
         </p>
     </div>
 </div>
-<div class="position-relative overflow-hidden p-3 p-md-5 text-start bg-light row">
-    <div class="col-md-6">
-        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-                <strong class="d-inline-block mb-2 text-primary">Enhance your brand.</strong>
-                <h3 class="mb-0">Branded Content Creation</h3>
-                <p class="card-text mb-auto">We match your company with a team of in-house journalists, writers, and digital marketing consultants who capture your brand's voice and style. Through our interview process, we capture your insights and write and publish content that establishes you and your company as a thought leader in your industry.</p>
-                <a href="javascript:void(0);" class="stretched-link">Learn more</a>
+<div class="position-relative overflow-hidden p-3 p-md-5 text-start bg-light container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-100 position-relative">
+                <div class="col-auto d-none d-lg-block">
+                    <img src="{{ asset('images/assets/content.png') }}" alt="" class="bd-placeholder-image img-fluid">
+                </div>
+                <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-primary">Enhance your brand.</strong>
+                    <h3 class="mb-0">Branded Content Creation</h3>
+                    <p class="card-text mb-auto">We match your company with a team of in-house journalists, writers, and digital marketing consultants who capture your brand's voice and style. Through our interview process, we capture your insights and write and publish content that establishes you and your company as a thought leader in your industry.</p>
+                    <a href="javascript:void(0);" class="stretched-link">Learn more</a>
+                </div>
             </div>
-            <div class="col-auto d-none d-lg-block">
-                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
-                    aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                        dy=".3em">Thumbnail</text>
-                </svg>
-    
+        </div>
+        <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-100 position-relative">
+                <div class="col-auto d-none d-lg-block">
+                    <img src="{{ asset('images/assets/leadership.webp') }}" alt="" class="bd-placeholder-image img-fluid">
+                </div>
+                <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-success">Strengthen your authority.</strong>
+                    <h3 class="mb-0">Executive Leadership Branding</h3>
+                    <p class="mb-auto">We work with our publication partners to give your CEO, founder, or executive an exclusive contributorship in a number of powerful online publications. Our team of writers will work with you to capture your voice, write content, and establish your executive as a thought leader in your industry.</p>
+                    <a href="javascript:void(0);" class="stretched-link">Learn more</a>
+                </div>
             </div>
         </div>
     </div>
-    <div class="col-md-6">
-        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-                <strong class="d-inline-block mb-2 text-success">Strengthen your authority.</strong>
-                <h3 class="mb-0">Executive Leadership Branding</h3>
-                <p class="mb-auto">We work with our publication partners to give your CEO, founder, or executive an exclusive contributorship in a number of powerful online publications. Our team of writers will work with you to capture your voice, write content, and establish your executive as a thought leader in your industry.</p>
-                <a href="javascript:void(0);" class="stretched-link">Learn more</a>
-            </div>
-            <div class="col-auto d-none d-lg-block">
-                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
-                    aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                        dy=".3em">Thumbnail</text>
-                </svg>
-    
+    <div class="row mt-4">
+
+        <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-100 position-relative">
+                <div class="col-auto d-none d-lg-block">
+                    <img src="{{ asset('images/assets/rank.webp') }}" alt="" class="bd-placeholder-image img-fluid">
+                </div>
+                <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-warning">Grow your audience.</strong>
+                    <h3 class="mb-0">High-Profile Content Placement</h3>
+                    <p class="mb-auto">Significantly expand your audience with high-ranking, expertly-written content. ELV Agency is partnered with an array of leading editorial brands who publish your articles as features and columns in their publications, ensuring your company is featured in authoritative editorial brands.</p>
+                    <a href="javascript:void(0);" class="stretched-link">Learn more</a>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="col-md-6">
-        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-                <strong class="d-inline-block mb-2 text-warning">Grow your audience.</strong>
-                <h3 class="mb-0">High-Profile Content Placement</h3>
-                <p class="mb-auto">Significantly expand your audience with high-ranking, expertly-written content. ELV Agency is partnered with an array of leading editorial brands who publish your articles as features and columns in their publications, ensuring your company is featured in authoritative editorial brands.</p>
-                <a href="javascript:void(0);" class="stretched-link">Learn more</a>
-            </div>
-            <div class="col-auto d-none d-lg-block">
-                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
-                    aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                        dy=".3em">Thumbnail</text>
-                </svg>
-    
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6">
-        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-                <strong class="d-inline-block mb-2 text-danger">Skyrocket your sales.</strong>
-                <h3 class="mb-0">Brand Promotion</h3>
-                <p class="mb-auto">We work with you to market and promote your published content. We'll help advise on how your brand and company can capitalize on its exclusive contributorship in leading editorial brands, and our editorial partners will ensure that your articles are featured prominently on their sites.</p>
-                <a href="javascript:void(0);" class="stretched-link">Learn more</a>
-            </div>
-            <div class="col-auto d-none d-lg-block">
-                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
-                    aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                        dy=".3em">Thumbnail</text>
-                </svg>
-    
+        <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-100 position-relative">
+                <div class="col-auto d-none d-lg-block">
+                    <img src="{{ asset('images/assets/promotion.webp') }}" alt="" class="bd-placeholder-image img-fluid">
+                </div>
+                <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-danger">Skyrocket your sales.</strong>
+                    <h3 class="mb-0">Brand Promotion</h3>
+                    <p class="mb-auto">We work with you to market and promote your published content. We'll help advise on how your brand and company can capitalize on its exclusive contributorship in leading editorial brands, and our editorial partners will ensure that your articles are featured prominently on their sites.</p>
+                    <a href="javascript:void(0);" class="stretched-link">Learn more</a>
+                </div>
             </div>
         </div>
     </div>
