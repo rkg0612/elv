@@ -252,8 +252,8 @@
 </svg>
 @endsection
 @section('content')
-<div class="position-relative overflow-hidden p-3 p-md-5 text-start bg-light">
-    <div class="col-md-8 p-lg-5 my-5">
+<div class="position-relative overflow-hidden p-3 p-md-5 text-start bg-light" style="background:linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('{{asset('images/assets/Main 1 - first slider - woman leaning back .jpg')}}'); background-size: cover;">
+    <div class="col-md-12 p-lg-5 my-5">
         <h1 class="display-4 fw-normal">Transforming Business Owners Into Top 1% Industry Experts</h1>
         <h2 class="display-6">We tell your story. The future of content marketing.</h2>
         <p class="lead fw-normal">
@@ -276,7 +276,7 @@
     </iframe>
 </div>
 <hr>
-<div class="position-relative overflow-hidden p-3 p-md-5 bg-dark row" style="background:linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('{{asset('images/assets/Main 1 - first slider - woman leaning back .jpg')}}'); background-size: cover;">
+<div class="position-relative overflow-hidden p-3 p-md-5 bg-dark row text-bg-dark">
     <div class="col-md-12 p-lg-5 my-5 text-end">
         <h2 class="display-6">Grow your audience. Enhance your brand. Skyrocket your sales.</h2>
         <p class="lead fw-normal">
