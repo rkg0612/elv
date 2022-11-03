@@ -11,6 +11,11 @@ class PageController extends Controller
         return view('pages.apply');
     }
 
+    public function confidentiality()
+    {
+        return view('pages.confidentiality');
+    }
+
     public function faq()
     {
         return view('pages.faq');

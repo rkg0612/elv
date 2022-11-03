@@ -165,11 +165,95 @@
         background-size: cover;
     }
 
+    a {
+        text-decoration: none;
+    }
+
     .feature-icon-small {
         width: 3rem;
         height: 3rem;
     }
+
+    .post-image {
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+    .post-content-block h3 a {
+        color: #444;
+        transition: 0.2s;
+    }
+
+    .post-content-block h3 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        line-height: 26px;
+        color: #2d3131 !important;
+    }
+
+    .meta-data-post {
+        font-size: 12px;
+        margin: 10px 0;
+        color: #8F8F8F;
+    }
+
+    .meta-data-post img {
+        width: 20px!important;
+        height: 20px!important;
+        border-radius: 20px!important;
+        margin-right: 2px;
+    }
+
+    .meta-data-post a {
+        margin-right: 3px!important;
+    }
+
+    .company-header-content {
+        padding: 20px 0;
+        border-top: 1px solid #ddd;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 11px;
+    }
+
+    .executive-articles {
+        /* border: 1px solid #eee; */
+        padding: 20px;
+        color: #8F8F8F;
+        background: #fff;
+        height: 100%;
+    }
+
+    .executive-articles .cs-logo img {
+        height: 20px;
+        width: auto;
+    }
+
+    .executive-articles h2 {
+        font-size: 20px;
+        border-top: 1px solid #eee;
+        padding: 20px 0 0;
+        margin-top: 16px;
+    }
+
+    .executive-articles h2 a {
+        color: #444;
+        font-size: 20px;
+        transition: 0.2s;
+    }
+
+    .executive-articles .excerpt {
+        display: block;
+    }
+
+    .executive-articles .author {
+        text-transform: uppercase;
+        font-size: 12px;
+    }
 </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 @endsection
 @section('svg')
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -277,7 +361,7 @@
 </div>
 <hr>
 <div class="position-relative overflow-hidden p-3 p-md-5 bg-dark row text-bg-dark">
-    <div class="col-md-12 p-lg-5 my-5 text-end">
+    <div class="col-md-12 px-3 my-5 text-end">
         <h2 class="display-6">Grow your audience. Enhance your brand. Skyrocket your sales.</h2>
         <p class="lead fw-normal">
             Content Is King. We're leading a seismic shift in content marketing, creating a studio for founders and leaders of fast growing companies to publish content in the most-read, world-renowned digital publications.
@@ -289,7 +373,7 @@
     </div>
 </div>
 <div class="position-relative overflow-hidden p-3 p-md-5 bg-light row">
-    <div class="col-md-8 p-lg-5 my-5 text-start">
+    <div class="col-md-8 px-3 my-5 text-start">
         <h2 class="display-6">Competitive Edge</h2>
         <p class="lead fw-normal">
             ELV Agency selects the best-in-class companies within a geo region for each category - once contracted, you become the exclusive featured company in your area.
@@ -299,7 +383,7 @@
 </div>
 <hr>
 <div class="position-relative overflow-hidden p-3 p-md-5 bg-light row">
-    <div class="col-md-12 p-lg-5 my-5 text-center">
+    <div class="col-md-12 px-3 my-5 text-center">
         <h2 class="display-6">Content is the most effective way to turn readers into clients</h2>
         <div class="row justify-content-center">
             <div class="col-4 text-center">
@@ -355,110 +439,171 @@
     </div>
 </div>
 <div class="position-relative overflow-hidden p-3 p-md-5 bg-dark text-bg-dark row">
-    <div class="col-md-12 p-lg-5 my-5 text-start">
+    <div class="col-md-12 px-3 my-5 text-start">
         <h2 class="display-6">Partnered with powerful publications.</h2>
         <p class="lead fw-normal">
             We give you—and your branded content—access to invitation-only thought leadership channels at the world's largest publications.
         </p>
     </div>
 </div>
-<div class="position-relative overflow-hidden p-3 p-md-5 bg-light">
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-        <div class="feature col-4">
-            <div
-                class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-secondary fs-2 mb-3">
-                <svg class="bi" width="1em" height="1em">
-                    <use xlink:href="#collection" />
-                </svg>
+<div class="position-relative overflow-hidden p-3 p-md-5 bg-light row">
+    <div class="col-12">
+        <div class="company-header-content">Posts by ELV Agency</div>
+        <div id="block-article" class="owl-carousel owl-theme">
+            <div class="item">
+                <div>
+                    <div class="post-image mb-3">
+                        <a href="javascript:void(0);">
+                            <img width="370" height="278" src="https://media.istockphoto.com/photos/glad-to-work-with-you-picture-id951514270?b=1&k=20&m=951514270&s=612x612&w=0&h=yp3UNtxVwiJZV3EHQqqKaS3md7HtBkVwHvH5uhcfcPE=" alt="Image 1">
+                        </a>
+                    </div>
+                    <div class="post-content-block">
+                        <h3 class="mb-1 fw-bold">
+                            <a href="javascript:void(0);">This is an example article title for this section</a>
+                        </h3>
+                        <div class="meta-data-post d-flex align-items-center flex-wrap">
+                            <a href="javascript:void(0);">
+                                <img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-512.png" alt="" height="96" width="96" class="avatar avatar-96 photo">
+                            </a>
+                            <a href="javascript:void(0);">John Doe</a> · 1 Jan 2022
+                        </div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repellat distinctio molestias quos nemo vitae culpa aspernatur omnis molestiae. ...
+                    </div>
+                </div>
             </div>
-            <h3 class="fs-2">Lorem Ipsum</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ut rerum cumque modi ipsa sunt possimus quo doloribus? Explicabo, sequi placeat? Nihil incidunt asperiores, ratione architecto libero optio cupiditate odit!</p>
-            <a href="javascript:void(0);" class="icon-link d-inline-flex align-items-center">
-                Link to Agency Post
-                <svg class="bi" width="1em" height="1em">
-                    <use xlink:href="#chevron-right" />
-                </svg>
-            </a>
+            <div class="item">
+                <div>
+                    <div class="post-image mb-3">
+                        <a href="javascript:void(0);">
+                            <img width="370" height="278" src="https://media.istockphoto.com/photos/millennial-black-businesswoman-addressing-colleagues-at-a-corporate-picture-id1146472948?k=20&m=1146472948&s=612x612&w=0&h=uJMkt7Jtt7sv73o77K3WcqleE6Jlsl5fhKG_6ug1jPA=" alt="Image 1">
+                        </a>
+                    </div>
+                    <div class="post-content-block">
+                        <h3 class="mb-1 fw-bold">
+                            <a href="javascript:void(0);">This is an example article title for this section</a>
+                        </h3>
+                        <div class="meta-data-post d-flex align-items-center flex-wrap">
+                            <a href="javascript:void(0);">
+                                <img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-512.png" alt="" height="96" width="96" class="avatar avatar-96 photo">
+                            </a>
+                            <a href="javascript:void(0);">John Doe</a> · 1 Jan 2022
+                        </div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repellat distinctio molestias quos nemo vitae culpa aspernatur omnis molestiae. ...
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div>
+                    <div class="post-image mb-3">
+                        <a href="javascript:void(0);">
+                            <img width="370" height="278" src="https://st.depositphotos.com/1594308/2118/i/950/depositphotos_21186965-stock-photo-discussion.jpg" alt="Image 1">
+                        </a>
+                    </div>
+                    <div class="post-content-block">
+                        <h3 class="mb-1 fw-bold">
+                            <a href="javascript:void(0);">This is an example article title for this section</a>
+                        </h3>
+                        <div class="meta-data-post d-flex align-items-center flex-wrap">
+                            <a href="javascript:void(0);">
+                                <img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-512.png" alt="" height="96" width="96" class="avatar avatar-96 photo">
+                            </a>
+                            <a href="javascript:void(0);">John Doe</a> · 1 Jan 2022
+                        </div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repellat distinctio molestias quos nemo vitae culpa aspernatur omnis molestiae. ...
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div>
+                    <div class="post-image mb-3">
+                        <a href="javascript:void(0);">
+                            <img width="370" height="278" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY0_O66gvtoNLLzycx4kJ2l46JBuxN9JbDe1wMQL0jLbDr8zddZt86KYNBZ0_OSm9hL1U&usqp=CAU" alt="Image 1">
+                        </a>
+                    </div>
+                    <div class="post-content-block">
+                        <h3 class="mb-1 fw-bold">
+                            <a href="javascript:void(0);">This is an example article title for this section</a>
+                        </h3>
+                        <div class="meta-data-post d-flex align-items-center flex-wrap">
+                            <a href="javascript:void(0);">
+                                <img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-512.png" alt="" height="96" width="96" class="avatar avatar-96 photo">
+                            </a>
+                            <a href="javascript:void(0);">John Doe</a> · 1 Jan 2022
+                        </div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repellat distinctio molestias quos nemo vitae culpa aspernatur omnis molestiae. ...
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="feature col-4">
-            <div
-                class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-secondary fs-2 mb-3">
-                <svg class="bi" width="1em" height="1em">
-                    <use xlink:href="#people-circle" />
-                </svg>
+    </div>
+</div>
+<div class="position-relative overflow-hidden p-3 p-md-5 row">
+    <div class="col-12">
+        <div class="company-header-content">Published Posts</div>
+        <div id="block-executive" class="owl-carousel owl-theme">
+            <div class="h-100">
+                    <div class="executive-articles d-flex align-items-start flex-column">
+                        <div class="cs-logo">
+                            <a href="javascript:void(0);" target="blank">
+                                <img width="150" height="39" src="https://massivepr.wpenginepowered.com/wp-content/uploads/Entreprenuer-150x39.png" alt="Entreprenuer">
+                            </a>
+                        </div>
+                        <h2>
+                            <a href="javascript:void(0);">This is a sample Executive Article</a>
+                        </h2>
+                        <div class="excerpt">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet molestias repudiandae nobis impedit facere, delectus unde! Iusto ipsam pariatur quas.</p>
+                        </div>
+                        <div class="d-flex justify-content-between mt-auto w-100">
+                            <a href="javascript:void(0);">Read Article</a>
+                            <div class="author">
+                                <a href="javascript:void(0);" class="text-muted">John Doe</a>
+                            </div>
+                        </div>
+                    </div>
             </div>
-            <h3 class="fs-2">Lorem Ipsum</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ut rerum cumque modi ipsa sunt possimus quo doloribus? Explicabo, sequi placeat? Nihil incidunt asperiores, ratione architecto libero optio cupiditate odit!</p>
-            <a href="javascript:void(0);" class="icon-link d-inline-flex align-items-center">
-                Link to Agency Post
-                <svg class="bi" width="1em" height="1em">
-                    <use xlink:href="#chevron-right" />
-                </svg>
-            </a>
-        </div>
-        <div class="feature col-4">
-            <div
-                class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-secondary fs-2 mb-3">
-                <svg class="bi" width="1em" height="1em">
-                    <use xlink:href="#toggles2" />
-                </svg>
+            <div class="h-100">
+                    <div class="executive-articles d-flex align-items-start flex-column">
+                        <div class="cs-logo">
+                            <a href="javascript:void(0);" target="blank">
+                                <img width="150" height="39" src="https://massivepr.wpenginepowered.com/wp-content/uploads/Entreprenuer-150x39.png" alt="Entreprenuer">
+                            </a>
+                        </div>
+                        <h2>
+                            <a href="javascript:void(0);">This is a sample Executive Article</a>
+                        </h2>
+                        <div class="excerpt">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate perferendis officiis neque maxime perspiciatis sit vero id placeat, tempora nesciunt ducimus? Neque velit mollitia officia vero perspiciatis, tempore corporis consequuntur?</p>
+                        </div>
+                        <div class="d-flex justify-content-between mt-auto w-100">
+                            <a href="javascript:void(0);">Read Article</a>
+                            <div class="author">
+                                <a href="javascript:void(0);" class="text-muted">John Doe</a>
+                            </div>
+                        </div>
+                    </div>
             </div>
-            <h3 class="fs-2">Lorem Ipsum</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ut rerum cumque modi ipsa sunt possimus quo doloribus? Explicabo, sequi placeat? Nihil incidunt asperiores, ratione architecto libero optio cupiditate odit!</p>
-            <a href="javascript:void(0);" class="icon-link d-inline-flex align-items-center">
-                Link to Agency Post
-                <svg class="bi" width="1em" height="1em">
-                    <use xlink:href="#chevron-right" />
-                </svg>
-            </a>
-        </div>
-        <div class="feature col-4">
-            <div
-                class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-secondary fs-2 mb-3">
-                <svg class="bi" width="1em" height="1em">
-                    <use xlink:href="#toggles2" />
-                </svg>
+            <div class="h-100">
+                    <div class="executive-articles d-flex align-items-start flex-column">
+                        <div class="cs-logo">
+                            <a href="javascript:void(0);" target="blank">
+                                <img width="150" height="39" src="https://massivepr.wpenginepowered.com/wp-content/uploads/Entreprenuer-150x39.png" alt="Entreprenuer">
+                            </a>
+                        </div>
+                        <h2>
+                            <a href="javascript:void(0);">This is a sample Executive Article</a>
+                        </h2>
+                        <div class="excerpt">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet molestias repudiandae nobis impedit facere, delectus unde! Iusto ipsam pariatur quas.</p>
+                        </div>
+                        <div class="d-flex justify-content-between mt-auto w-100">
+                            <a href="javascript:void(0);">Read Article</a>
+                            <div class="author">
+                                <a href="javascript:void(0);" class="text-muted">John Doe</a>
+                            </div>
+                        </div>
+                    </div>
             </div>
-            <h3 class="fs-2">Lorem Ipsum</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ut rerum cumque modi ipsa sunt possimus quo doloribus? Explicabo, sequi placeat? Nihil incidunt asperiores, ratione architecto libero optio cupiditate odit!</p>
-            <a href="javascript:void(0);" class="icon-link d-inline-flex align-items-center">
-                Link to Thought Leadership Article
-                <svg class="bi" width="1em" height="1em">
-                    <use xlink:href="#chevron-right" />
-                </svg>
-            </a>
-        </div>
-        <div class="feature col-4">
-            <div
-                class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-secondary fs-2 mb-3">
-                <svg class="bi" width="1em" height="1em">
-                    <use xlink:href="#cpu-fill" />
-                </svg>
-            </div>
-            <h3 class="fs-2">Lorem Ipsum</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ut rerum cumque modi ipsa sunt possimus quo doloribus? Explicabo, sequi placeat? Nihil incidunt asperiores, ratione architecto libero optio cupiditate odit!</p>
-            <a href="javascript:void(0);" class="icon-link d-inline-flex align-items-center">
-                Link to Thought Leadership Article
-                <svg class="bi" width="1em" height="1em">
-                    <use xlink:href="#chevron-right" />
-                </svg>
-            </a>
-        </div>
-        <div class="feature col-4">
-            <div
-                class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-secondary fs-2 mb-3">
-                <svg class="bi" width="1em" height="1em">
-                    <use xlink:href="#tools" />
-                </svg>
-            </div>
-            <h3 class="fs-2">Lorem Ipsum</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ut rerum cumque modi ipsa sunt possimus quo doloribus? Explicabo, sequi placeat? Nihil incidunt asperiores, ratione architecto libero optio cupiditate odit!</p>
-            <a href="javascript:void(0);" class="icon-link d-inline-flex align-items-center">
-                Link to Thought Leadership Article
-                <svg class="bi" width="1em" height="1em">
-                    <use xlink:href="#chevron-right" />
-                </svg>
-            </a>
         </div>
     </div>
 </div>
@@ -496,4 +641,43 @@
         <a class="btn btn-outline-secondary btn-lg" href="javascript:void(0);">Apply Today</a>
     </div>
 </div>
+@endsection
+@section('scripts')
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js" integrity="sha512-CX7sDOp7UTAq+i1FYIlf9Uo27x4os+kGeoT7rgwvY+4dmjqV0IuE/Bl5hVsjnQPQiTOhAX1O2r2j5bjsFBvv/A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $('#block-article').owlCarousel({
+        loop:false,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:3
+            }
+        }
+    })
+
+    $('#block-executive').owlCarousel({
+        loop:true,
+        margin:30,
+        nav:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:3
+            }
+        }
+    })
+</script>
 @endsection

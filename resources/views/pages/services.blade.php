@@ -1,7 +1,7 @@
 @extends('layout.main')
 @section('content')
 <div class="position-relative overflow-hidden p-3 p-md-5 text-start bg-light" style="background:linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('{{asset('images/assets/3 Services - header - light bulb.jpg')}}'); background-size: cover;">
-    <div class="col-md-12 p-lg-5 my-5">
+    <div class="col-md-12 px-3 my-5">
         <h1 class="display-4 fw-normal">Transforming Clients Into Top 1% Industry Experts Through Thought Leadership Content Marketing.</h1>
         <h2 class="display-6">We work with smart and innovative clients who want to demonstrate their industry authority through content marketing.</h2>
         <p class="lead fw-normal">
@@ -11,7 +11,7 @@
 </div>
 <div class="position-relative overflow-hidden p-3 p-md-5 bg-dark text-bg-dark row">
     <div class="col-md-2"></div>
-    <div class="col-md-10 p-lg-5 my-5 text-end">
+    <div class="col-md-10 px-3 my-5 text-end">
         <h2 class="display-6">Content Marketing Services</h2>
         <p class="lead fw-normal">
             Expertly-written content published in powerful publications. Branding expertise from a seasoned team of writers and editors, and exclusive contributing partnerships with powerful business publications.
@@ -97,13 +97,13 @@
     </div>
 </div>
 <div class="position-relative overflow-hidden p-3 p-md-5 bg-dark text-bg-dark row">
-    <div class="col-md-10 p-lg-5 my-5 text-start">
+    <div class="col-md-12 px-3 my-5 text-start">
         <h1 class="display-4 fw-normal">Exclusivity</h1>
-        <h2 class="display-6 mt-4 mb-0">Exclusivity is also about being a higher caliber of company or service to your targeted local audience.</h2>
-        <p class="lead fw-normal">
+        <h2 class="display-6 mt-4 mb-2">Exclusivity is also about being a higher caliber of company or service to your targeted local audience.</h2>
+        <p class="lead fw-normal mb-5">
             ELV Agency limits its work to only the top business in each category for a city market - simply put, more than one exclusive client in the same market would weaken the engagement and confuse your target audience.
         </p>
-        <h2 class="display-6 mt-4 mb-0">You heard it right - if selected, you will have exclusive rights for your business category in your area.</h2>
+        <h2 class="display-6 mt-4 mb-2">You heard it right - if selected, you will have exclusive rights for your business category in your area.</h2>
         <p class="lead fw-normal">
             ELV Agency selects the best-in-class companies in each category within a geo region - once contracted you become the exclusive featured company for your area.
         </p>
@@ -113,7 +113,7 @@
     </div>
 </div>
 <div class="position-relative overflow-hidden p-3 p-md-5 text-start text-bg-dark" style="background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{asset('images/assets/3 Service - what makes us different - high-fives.jpg')}}'); background-size: cover;">
-    <div class="col-md-12 p-lg-5 my-5">
+    <div class="col-md-12 px-3 my-5">
         <h1 class="display-4 fw-normal mb-4">What makes us different from every other content marketing agency?</h1>
         <h2 class="display-6 mt-4 mb-0">We're well connected.</h2>
         <p class="lead fw-normal">
