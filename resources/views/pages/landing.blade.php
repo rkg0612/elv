@@ -252,7 +252,7 @@
 </svg>
 @endsection
 @section('content')
-<div class="position-relative overflow-hidden p-3 p-md-5 text-start bg-light text-bg-dark" style="background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{asset('images/assets/Main 1 - Competitive Edge - ace out of sleeve.jpg')}}'); background-size: cover;">
+<div class="position-relative overflow-hidden p-3 p-md-5 text-start bg-light">
     <div class="col-md-8 p-lg-5 my-5">
         <h1 class="display-4 fw-normal">Transforming Business Owners Into Top 1% Industry Experts</h1>
         <h2 class="display-6">We tell your story. The future of content marketing.</h2>
