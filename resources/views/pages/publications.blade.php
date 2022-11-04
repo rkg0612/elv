@@ -29,12 +29,12 @@
             </p>
         </div>
         <div class="col-md-6">
-            <img src="{{asset('images/assets/writing.avif')}}" alt="" class="img-fluid">
+            <img src="{{asset('images/assets/writing.avif')}}" alt="" class="img-fluid rounded">
         </div>
     </div>
     <div class="row">
         <div class="col-md-6">
-            <img src="{{asset('images/assets/handshake.jpeg')}}" alt="" class="img-fluid">
+            <img src="{{asset('images/assets/handshake.jpeg')}}" alt="" class="img-fluid rounded">
         </div>
         <div class="col-md-6 my-auto">
             <h2 class="display-6">Build trust and credibility.</h2>
@@ -51,12 +51,12 @@
             </p>
         </div>
         <div class="col-md-6">
-            <img src="{{asset('images/assets/persona.jpeg')}}" alt="" class="img-fluid">
+            <img src="{{asset('images/assets/persona.jpeg')}}" alt="" class="img-fluid rounded">
         </div>
     </div>
     <div class="row">
         <div class="col-md-6">
-            <img src="{{asset('images/assets/promote.jpeg')}}" alt="" class="img-fluid">
+            <img src="{{asset('images/assets/promote.jpeg')}}" alt="" class="img-fluid rounded">
         </div>
         <div class="col-md-6 my-auto">
             <h2 class="display-6">Promote your brand.</h2>
@@ -73,7 +73,7 @@
             </p>
         </div>
         <div class="col-md-6">
-            <img src="{{asset('images/assets/sales.png')}}" alt="" class="img-fluid">
+            <img src="{{asset('images/assets/sales.png')}}" alt="" class="img-fluid rounded">
         </div>
     </div>
 </div>
