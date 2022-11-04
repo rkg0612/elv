@@ -251,6 +251,23 @@
         text-transform: uppercase;
         font-size: 12px;
     }
+
+    .img-wrapper {
+    position: relative;
+    } 
+    .img-wrapper::before {
+        background-image: linear-gradient(to left, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 1) 100%);
+        background-image: -moz-linear-gradient(to left, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 1) 100%);
+        background-image: -ms-linear-gradient(to left, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 1) 100%);
+        background-image: -o-linear-gradient(to left, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 1) 100%);
+        background-image: -webkit-linear-gradient(to left, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 1) 100%);
+        content:"\00a0";
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -372,13 +389,16 @@
         <a class="btn btn-outline-dark" href="javascript:void(0);">See Our Work</a>
     </div>
 </div>
-<div class="position-relative overflow-hidden p-3 p-md-5 bg-light row">
-    <div class="col-md-8 px-3 my-5 text-start">
+<div class="position-relative overflow-hidden px-3 row">
+    <div class="col-md-6 px-3 my-5 text-start">
         <h2 class="display-6">Competitive Edge</h2>
         <p class="lead fw-normal">
             ELV Agency selects the best-in-class companies within a geo region for each category - once contracted, you become the exclusive featured company in your area.
         </p>
         <a class="btn btn-outline-secondary" href="javascript:void(0);">Apply Today</a>
+    </div>
+    <div class="col-md-6 img-wrapper">
+        <img src="{{asset('images/assets/Main 1 - Competitive Edge - ace out of sleeve.jpg')}}" alt="" class="img-fluid">
     </div>
 </div>
 <hr>
@@ -465,7 +485,7 @@
                             <a href="javascript:void(0);">
                                 <img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-512.png" alt="" height="96" width="96" class="avatar avatar-96 photo">
                             </a>
-                            <a href="javascript:void(0);">John Doe</a> · 1 Jan 2022
+                            <a href="javascript:void(0);">Bruce Caven</a> · 1 Jan 2022
                         </div>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repellat distinctio molestias quos nemo vitae culpa aspernatur omnis molestiae. ...
                     </div>
@@ -486,7 +506,7 @@
                             <a href="javascript:void(0);">
                                 <img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-512.png" alt="" height="96" width="96" class="avatar avatar-96 photo">
                             </a>
-                            <a href="javascript:void(0);">John Doe</a> · 1 Jan 2022
+                            <a href="javascript:void(0);">Bruce Caven</a> · 1 Jan 2022
                         </div>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repellat distinctio molestias quos nemo vitae culpa aspernatur omnis molestiae. ...
                     </div>
@@ -507,7 +527,7 @@
                             <a href="javascript:void(0);">
                                 <img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-512.png" alt="" height="96" width="96" class="avatar avatar-96 photo">
                             </a>
-                            <a href="javascript:void(0);">John Doe</a> · 1 Jan 2022
+                            <a href="javascript:void(0);">Bruce Caven</a> · 1 Jan 2022
                         </div>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repellat distinctio molestias quos nemo vitae culpa aspernatur omnis molestiae. ...
                     </div>
@@ -528,7 +548,7 @@
                             <a href="javascript:void(0);">
                                 <img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-512.png" alt="" height="96" width="96" class="avatar avatar-96 photo">
                             </a>
-                            <a href="javascript:void(0);">John Doe</a> · 1 Jan 2022
+                            <a href="javascript:void(0);">Bruce Caven</a> · 1 Jan 2022
                         </div>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repellat distinctio molestias quos nemo vitae culpa aspernatur omnis molestiae. ...
                     </div>
@@ -545,7 +565,7 @@
                     <div class="executive-articles d-flex align-items-start flex-column">
                         <div class="cs-logo">
                             <a href="javascript:void(0);" target="blank">
-                                <img width="150" height="39" src="https://massivepr.wpenginepowered.com/wp-content/uploads/Entreprenuer-150x39.png" alt="Entreprenuer">
+                                <img width="150" height="39" src="{{ asset('images/publications/entrepreneur.webp') }}" alt="Entreprenuer">
                             </a>
                         </div>
                         <h2>
@@ -557,7 +577,7 @@
                         <div class="d-flex justify-content-between mt-auto w-100">
                             <a href="javascript:void(0);">Read Article</a>
                             <div class="author">
-                                <a href="javascript:void(0);" class="text-muted">John Doe</a>
+                                <a href="javascript:void(0);" class="text-muted">Bruce Caven</a>
                             </div>
                         </div>
                     </div>
@@ -566,7 +586,7 @@
                     <div class="executive-articles d-flex align-items-start flex-column">
                         <div class="cs-logo">
                             <a href="javascript:void(0);" target="blank">
-                                <img width="150" height="39" src="https://massivepr.wpenginepowered.com/wp-content/uploads/Entreprenuer-150x39.png" alt="Entreprenuer">
+                                <img width="150" height="39" src="{{ asset('images/publications/benzinga.webp') }}" alt="Entreprenuer">
                             </a>
                         </div>
                         <h2>
@@ -578,7 +598,7 @@
                         <div class="d-flex justify-content-between mt-auto w-100">
                             <a href="javascript:void(0);">Read Article</a>
                             <div class="author">
-                                <a href="javascript:void(0);" class="text-muted">John Doe</a>
+                                <a href="javascript:void(0);" class="text-muted">Bruce Caven</a>
                             </div>
                         </div>
                     </div>
@@ -587,7 +607,7 @@
                     <div class="executive-articles d-flex align-items-start flex-column">
                         <div class="cs-logo">
                             <a href="javascript:void(0);" target="blank">
-                                <img width="150" height="39" src="https://massivepr.wpenginepowered.com/wp-content/uploads/Entreprenuer-150x39.png" alt="Entreprenuer">
+                                <img width="150" height="39" src="{{ asset('images/publications/forbes.png') }}" alt="Entreprenuer">
                             </a>
                         </div>
                         <h2>
@@ -599,7 +619,7 @@
                         <div class="d-flex justify-content-between mt-auto w-100">
                             <a href="javascript:void(0);">Read Article</a>
                             <div class="author">
-                                <a href="javascript:void(0);" class="text-muted">John Doe</a>
+                                <a href="javascript:void(0);" class="text-muted">Bruce Caven</a>
                             </div>
                         </div>
                     </div>

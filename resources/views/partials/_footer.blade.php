@@ -1,6 +1,6 @@
 <div class="container-fluid">
     <div class="position-relative overflow-hidden p-3 p-md-5 text-center bg-secondary text-bg-dark row">
-        <div class="col-md-12 p-lg-5 my-5">
+        <div class="col-md-12 px-2 my-5">
             <h1 class="display-4 fw-normal">Transforming Business Owners Into Top 1% Industry Experts</h1>
             <h2 class="display-6">Powerful content marketing crafted for your audience.</h2>
             <p class="lead fw-normal">

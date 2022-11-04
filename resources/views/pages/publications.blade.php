@@ -5,9 +5,9 @@
         <h1 class="display-4 fw-normal">Our Publication Partners.</h1>
         <p class="lead fw-normal">What differentiates ELV Agency is our strong partnerships with leading editorial brands. When you work with us, you gain exclusive publishing access to a number of media companies, and their audiences earn a front-row seat to your content.</p>
         <p class="lead fw-normal text-info">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Forbes_logo.svg/2560px-Forbes_logo.svg.png" alt="Forbes" height="20px">  · 
-            <img src="https://www.benzinga.com/next-assets/images/schema-publisher-logo-benzinga.png" alt="Benzinga" height="20px"> · 
-            <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Newsweek_Logo.svg" alt="Benzinga" height="20px">
+            <img src="{{ asset('imagesations/forbes.png') }}" alt="Forbes" height="25px">  · 
+            <img src="{{ asset('imagesations/benzinga.webp') }}" alt="Benzinga" height="20px"> · 
+            <img src="{{ asset('imagesations/newsweek.svg') }}" alt="Newsweek" height="27px">
         </p>
     </div>
 </div>

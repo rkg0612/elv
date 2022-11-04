@@ -103,7 +103,7 @@
                             <a href="javascript:void(0);">
                                 <img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-512.png" alt="" height="96" width="96" class="avatar avatar-96 photo">
                             </a>
-                            <a href="javascript:void(0);">John Doe</a> · 1 Jan 2022
+                            <a href="javascript:void(0);">Bruce Caven</a> · 1 Jan 2022
                         </div>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repellat distinctio molestias quos nemo vitae culpa aspernatur omnis molestiae. ...
                     </div>
@@ -124,7 +124,7 @@
                             <a href="javascript:void(0);">
                                 <img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-512.png" alt="" height="96" width="96" class="avatar avatar-96 photo">
                             </a>
-                            <a href="javascript:void(0);">John Doe</a> · 1 Jan 2022
+                            <a href="javascript:void(0);">Bruce Caven</a> · 1 Jan 2022
                         </div>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repellat distinctio molestias quos nemo vitae culpa aspernatur omnis molestiae. ...
                     </div>
@@ -145,7 +145,7 @@
                             <a href="javascript:void(0);">
                                 <img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-512.png" alt="" height="96" width="96" class="avatar avatar-96 photo">
                             </a>
-                            <a href="javascript:void(0);">John Doe</a> · 1 Jan 2022
+                            <a href="javascript:void(0);">Bruce Caven</a> · 1 Jan 2022
                         </div>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repellat distinctio molestias quos nemo vitae culpa aspernatur omnis molestiae. ...
                     </div>
@@ -166,7 +166,7 @@
                             <a href="javascript:void(0);">
                                 <img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-512.png" alt="" height="96" width="96" class="avatar avatar-96 photo">
                             </a>
-                            <a href="javascript:void(0);">John Doe</a> · 1 Jan 2022
+                            <a href="javascript:void(0);">Bruce Caven</a> · 1 Jan 2022
                         </div>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repellat distinctio molestias quos nemo vitae culpa aspernatur omnis molestiae. ...
                     </div>
@@ -195,7 +195,7 @@
                         <div class="d-flex justify-content-between mt-auto w-100">
                             <a href="javascript:void(0);">Read Article</a>
                             <div class="author">
-                                <a href="javascript:void(0);" class="text-muted">John Doe</a>
+                                <a href="javascript:void(0);" class="text-muted">Bruce Caven</a>
                             </div>
                         </div>
                     </div>
@@ -216,7 +216,7 @@
                         <div class="d-flex justify-content-between mt-auto w-100">
                             <a href="javascript:void(0);">Read Article</a>
                             <div class="author">
-                                <a href="javascript:void(0);" class="text-muted">John Doe</a>
+                                <a href="javascript:void(0);" class="text-muted">Bruce Caven</a>
                             </div>
                         </div>
                     </div>
@@ -237,7 +237,7 @@
                         <div class="d-flex justify-content-between mt-auto w-100">
                             <a href="javascript:void(0);">Read Article</a>
                             <div class="author">
-                                <a href="javascript:void(0);" class="text-muted">John Doe</a>
+                                <a href="javascript:void(0);" class="text-muted">Bruce Caven</a>
                             </div>
                         </div>
                     </div>
