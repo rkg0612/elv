@@ -390,7 +390,7 @@
     </div>
 </div>
 <div class="position-relative overflow-hidden px-3 row">
-    <div class="col-md-6 px-3 my-5 text-start">
+    <div class="col-md-6 px-5 my-auto text-start">
         <h2 class="display-6">Competitive Edge</h2>
         <p class="lead fw-normal">
             ELV Agency selects the best-in-class companies within a geo region for each category - once contracted, you become the exclusive featured company in your area.
