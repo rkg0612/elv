@@ -1,6 +1,6 @@
-<header class="p-0 text-bg-dark site-header d-none d-md-block">
+<header class="p-0 text-bg-dark">
     <div class="container-fluid px-5">
-        <div class="d-flex flex-wrap align-items-center justify-content-between">
+        <div class="d-flex flex-wrap align-items-center justify-content-lg-between justify-content-center">
             <a href="{{ route('landing') }}" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
                 <img class="img-fluid" src="{{ asset('images/logo/ELV Official Logo White.png') }}" width="200px" alt="">
             </a>

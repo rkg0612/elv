@@ -273,6 +273,32 @@
     .lead-2 {
         font-size: 1.05rem;
     }
+
+    .video-container { 
+        height: 480px;
+        width: 853.3px;
+    }
+
+    @media (max-width: 991px) {
+        .video-container { 
+            height: 360px;
+            width: 640px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .video-container { 
+            height: 240px;
+            width: 426.72px;
+        }
+    }
+
+    @media (max-width: 575px) {
+        .video-container { 
+            height: 144px;
+            width: 256px;
+        }
+    }
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -372,13 +398,13 @@
     <h1 class="display-3">Executive Leadership Voice Agency</h1>
 </div>
 <div class="text-center p-3 p-md-5">
-    <iframe width="854" 
-        height="480"
+    <iframe
         src="https://www.youtube.com/embed/Prb_l-NJ-A4?modestbranding&controls=0"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
+        allowfullscreen
+        class="video-container">
     </iframe>
 </div>
 <hr>
@@ -403,7 +429,7 @@
         </p>
         <a class="btn btn-outline-secondary" href="javascript:void(0);">Apply Today</a>
     </div>
-    <div class="col-md-6 img-wrapper">
+    <div class="col-md-6 img-wrapper d-none d-md-block d-lg-block">
         <img src="{{asset('images/assets/Main 1 - Competitive Edge - ace out of sleeve.jpg')}}" alt="" class="img-fluid">
     </div>
 </div>
