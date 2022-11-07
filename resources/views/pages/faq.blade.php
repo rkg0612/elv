@@ -1,12 +1,16 @@
 @extends('layout.main')
 @section('content')
-<div class="position-relative overflow-hidden p-3 p-md-5 text-start bg-light">
-    <div class="col-md-12 p-lg-5 my-5">
+<div class="position-relative overflow-hidden p-3 p-md-5 text-start bg-light" style="background:linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('{{asset('images/assets/FAQ - Blue Question Mark.jpg')}}'); background-size: cover;">
+    <div class="col-md-12 px-3">
         <h1 class="display-4 fw-normal">How Can We Help?</h1>
         <h2 class="display-6">Have questions about working with ELV Agency?</p>
         <p class="lead fw-normal">
             Here are the questions we're asked the most.
         </p>
+    </div>
+</div>
+<div class="position-relative overflow-hidden p-3 p-md-5 text-start bg-light">
+    <div class="col-md-12 p-lg-5">
         <p class="lead text-muted mt-4 mb-0">Can I use ELV to influence my online image and corporate brand?</p>
         <p class="lead fw-normal">
             Yes, of course. The articles we publish, market, and use to grow your company’s online presence are an extension of your brand. With SEO strategy and the authority of our publication partners, we work to ensure that articles written for your brand rank high for relevant search terms in your area and industry.

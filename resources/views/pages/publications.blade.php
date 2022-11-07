@@ -1,7 +1,7 @@
 @extends('layout.main')
 @section('content')
 <div class="position-relative overflow-hidden p-3 p-md-5 text-start bg-light">
-    <div class="col-md-10 px-3 my-5">
+    <div class="col-md-10 px-3">
         <h1 class="display-4 fw-normal">Our Publication Partners.</h1>
         <p class="lead fw-normal">What differentiates ELV Agency is our strong partnerships with leading editorial brands. When you work with us, you gain exclusive publishing access to a number of media companies, and their audiences earn a front-row seat to your content.</p>
         <p class="lead fw-normal text-info">
@@ -13,7 +13,7 @@
 </div>
 <div class="position-relative overflow-hidden p-3 p-md-5 bg-dark text-bg-dark row">
     <div class="col-md-2"></div>
-    <div class="col-md-10 px-3 my-5 text-end">
+    <div class="col-md-10 px-3 text-end">
         <h2 class="display-4">How it works.</h2>
         <p class="lead fw-normal">
             We don't just write and publish well-written articles with our publication partners. Our team of writers refine your company's style and voice, and we employ SEO and powerful marketing strategies to ensure your articles rank.
@@ -78,7 +78,7 @@
     </div>
 </div>
 <div class="position-relative overflow-hidden p-3 p-md-5 bg-dark text-bg-dark row">
-    <div class="col-md-10 px-3 my-5 text-start">
+    <div class="col-md-10 px-3 text-start">
         <h2 class="display-4">Exclusive contributing partnerships.</h2>
         <p class="lead fw-normal">
             Many of our partners maintain exclusive, invitation-only platforms for business leaders and industry experts. When you work with ELV Agency, you and your brand are given immediate membership.

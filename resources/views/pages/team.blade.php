@@ -1,7 +1,7 @@
 @extends('layout.main')
 @section('content')
-<div class="position-relative overflow-hidden p-3 p-md-5 text-start text-bg-dark" style="background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{asset('images/assets/2 Team - header - mosaic of people.jpg')}}'); background-size: cover;">
-    <div class="col-md-12 p-lg-5 my-5">
+<div class="position-relative overflow-hidden p-3 p-md-5 text-start text-bg-dark" style="background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{asset('images/assets/2 Team - header - mosaic of people NO WATERMARK.jpg')}}'); background-size: cover;">
+    <div class="col-md-12 px-3 my-5">
         <h1 class="display-4 fw-normal">10 years in the making.</h1>
         <h2 class="display-6">A culmination of two juggernaut companies in the PR and Content Writing fields have come together to launch ELV Agency.</h2>
         <p class="lead fw-normal">
@@ -47,7 +47,7 @@
     <h3 class="display-6 fw-normal">Helping you win new customers with published thought leadership persuasive content.</h3>
 </div>
 <div class="position-relative overflow-hidden p-3 p-md-5 bg-light row justify-content-center">
-    <div class="col-md-12 p-lg-5 my-5 text-center">
+    <div class="col-md-12 text-center">
         <h2 class="display-6">Writing Team Trusted By Over 6000 Companies Over 12 Years In Business</h2>
     </div>
     <div class="col-lg-3 text-center">

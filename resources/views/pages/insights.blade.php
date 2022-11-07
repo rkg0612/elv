@@ -84,9 +84,14 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 @endsection
 @section('content')
+<div class="position-relative overflow-hidden p-3 p-md-5 text-start bg-light">
+    <div class="col-md-12 px-3">
+        <h1 class="display-4 fw-normal">Internal Blogs and Published Posts</h1>
+    </div>
+</div>
 <div class="position-relative overflow-hidden p-3 p-md-5 bg-light row">
     <div class="col-12">
-        <div class="company-header-content">Posts by ELV Agency</div>
+        <div class="company-header-content">ELV Agency Posts by Bruce Caven</div>
         <div id="block-article" class="owl-carousel owl-theme">
             <div class="item">
                 <div>
@@ -177,7 +182,7 @@
 </div>
 <div class="position-relative overflow-hidden p-3 p-md-5 row">
     <div class="col-12">
-        <div class="company-header-content">Published Posts</div>
+        <div class="company-header-content">Published Posts by Bruce Caven</div>
         <div id="block-executive" class="owl-carousel owl-theme">
             <div class="h-100">
                     <div class="executive-articles d-flex align-items-start flex-column">
@@ -270,7 +275,7 @@
     $('#block-executive').owlCarousel({
         loop:true,
         margin:30,
-        nav:false,
+        nav:true,
         responsive:{
             0:{
                 items:1

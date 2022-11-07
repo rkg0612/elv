@@ -1,8 +1,12 @@
 @extends('layout.main')
 @section('content')
-<div class="position-relative overflow-hidden p-3 p-md-5 text-start bg-light">
-    <div class="col-md-12 p-lg-5 my-5">
+<div class="position-relative overflow-hidden p-3 px-md-5 pb-md-0 pt-md-5 text-start bg-light">
+    <div class="col-md-12">
         <h1 class="display-4 fw-normal">ELV Agency Application Membership?</h1>
+    </div>
+</div>
+<div class="position-relative overflow-hidden p-3 px-md-5 pb-md-5 pt-md-0 text-start bg-light">
+    <div class="col-md-12">
         <p class="lead fw-normal">
             Based on the information you provide; our selection committee will evaluate your initial application for membership. Expect a response to your submission within 2 business days.
         </p>

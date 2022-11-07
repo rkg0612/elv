@@ -255,6 +255,7 @@
     .img-wrapper {
     position: relative;
     } 
+
     .img-wrapper::before {
         background-image: linear-gradient(to left, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 1) 100%);
         background-image: -moz-linear-gradient(to left, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 1) 100%);
@@ -267,6 +268,10 @@
         height: 100%;
         width: 100%;
         position: absolute;
+    }
+
+    .lead-2 {
+        font-size: 1.05rem;
     }
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -353,8 +358,8 @@
 </svg>
 @endsection
 @section('content')
-<div class="position-relative overflow-hidden p-3 p-md-5 text-start bg-light" style="background:linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('{{asset('images/assets/Main 1 - first slider - woman leaning back .jpg')}}'); background-size: cover;">
-    <div class="col-md-12 p-lg-5 my-5">
+<div class="position-relative overflow-hidden p-3 p-md-5 text-start bg-light" style="background:linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('{{asset('images/assets/Main 1 - first slider - woman leaning back .jpg')}}'); background-size: cover;">
+    <div class="col-md-12 px-3 my-5">
         <h1 class="display-4 fw-normal">Transforming Business Owners Into Top 1% Industry Experts</h1>
         <h2 class="display-6">We tell your story. The future of content marketing.</h2>
         <p class="lead fw-normal">
@@ -378,15 +383,16 @@
 </div>
 <hr>
 <div class="position-relative overflow-hidden p-3 p-md-5 bg-dark row text-bg-dark">
-    <div class="col-md-12 px-3 my-5 text-end">
+    <div class="col-md-2"></div>
+    <div class="col-md-10 px-3 text-end">
         <h2 class="display-6">Grow your audience. Enhance your brand. Skyrocket your sales.</h2>
         <p class="lead fw-normal">
             Content Is King. We're leading a seismic shift in content marketing, creating a studio for founders and leaders of fast growing companies to publish content in the most-read, world-renowned digital publications.
         </p>
-        <p class="lead fw-normal">
+        <p class="lead-2 fw-normal">
             92% of decision makers say consuming thought leadership improves their respect for an organization.
         </p>
-        <a class="btn btn-outline-dark" href="javascript:void(0);">See Our Work</a>
+        <a class="btn btn-outline-light" href="javascript:void(0);">See Our Work</a>
     </div>
 </div>
 <div class="position-relative overflow-hidden px-3 row">
@@ -403,7 +409,7 @@
 </div>
 <hr>
 <div class="position-relative overflow-hidden p-3 p-md-5 bg-light row">
-    <div class="col-md-12 px-3 my-5 text-center">
+    <div class="col-md-12 px-3 text-center">
         <h2 class="display-6">Content is the most effective way to turn readers into clients</h2>
         <div class="row justify-content-center">
             <div class="col-4 text-center">
@@ -468,7 +474,7 @@
 </div>
 <div class="position-relative overflow-hidden p-3 p-md-5 bg-light row">
     <div class="col-12">
-        <div class="company-header-content">Posts by ELV Agency</div>
+        <div class="company-header-content">ELV Agency Posts by Bruce Caven</div>
         <div id="block-article" class="owl-carousel owl-theme">
             <div class="item">
                 <div>
@@ -559,7 +565,7 @@
 </div>
 <div class="position-relative overflow-hidden p-3 p-md-5 row">
     <div class="col-12">
-        <div class="company-header-content">Published Posts</div>
+        <div class="company-header-content">Published Posts by Bruce Caven</div>
         <div id="block-executive" class="owl-carousel owl-theme">
             <div class="h-100">
                     <div class="executive-articles d-flex align-items-start flex-column">
@@ -630,13 +636,13 @@
 <hr>
 <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
     <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 py-3">
+        <div class="my-3 boxes py-3">
             <h2 class="display-5">Branded Content Creation</h2>
             <p class="lead">Our team of writers, journalists and marketing experts will work with you to write branded articles and content that captures your company's voice.</p>
         </div>
     </div>
     <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 p-3">
+        <div class="my-3 boxes p-3">
             <h2 class="display-5">Executive Leadership Branding</h2>
             <p class="lead">Our writers will establish your executive or founder as the thought leader in your industry, enhancing your brand and growing your audience.</p>
         </div>
@@ -644,13 +650,13 @@
 </div>
 <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
     <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 py-3">
+        <div class="my-3 boxes py-3">
             <h2 class="display-5">High-Profile Publishing</h2>
             <p class="lead">Our partners will publish and feature your articles, ensuring your branded content is featured in the nation's most read digital publications.</p>
         </div>
     </div>
     <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 p-3">
+        <div class="my-3 boxes p-3">
             <h2 class="display-5">Brand Promotion</h2>
             <p class="lead">We'll work with you to market and promote your content, so your company expands its reach, increases its sales, and grows its digital audience.</p>
         </div>
@@ -686,7 +692,7 @@
     $('#block-executive').owlCarousel({
         loop:true,
         margin:30,
-        nav:false,
+        nav:true,
         responsive:{
             0:{
                 items:1
@@ -699,5 +705,16 @@
             }
         }
     })
+</script>
+<script>
+    $(document).ready(function() {
+        var elementHeights = $('.boxes').map(function() {
+            return $(this).height();
+        }).get();
+    
+        var maxHeight = Math.max.apply(null, elementHeights);
+    
+        $('.boxes').height(maxHeight);
+    });
 </script>
 @endsection
