@@ -630,6 +630,27 @@
                         </div>
                     </div>
             </div>
+            <div class="h-100">
+                    <div class="executive-articles d-flex align-items-start flex-column">
+                        <div class="cs-logo">
+                            <a href="javascript:void(0);" target="blank">
+                                <img width="150" height="39" src="{{ asset('images/publications/benzinga.webp') }}" alt="Entreprenuer">
+                            </a>
+                        </div>
+                        <h2>
+                            <a href="javascript:void(0);">This is a sample Executive Article</a>
+                        </h2>
+                        <div class="excerpt">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate perferendis officiis neque maxime perspiciatis sit vero id placeat, tempora nesciunt ducimus? Neque velit mollitia officia vero perspiciatis, tempore corporis consequuntur?</p>
+                        </div>
+                        <div class="d-flex justify-content-between mt-auto w-100">
+                            <a href="javascript:void(0);">Read Article</a>
+                            <div class="author">
+                                <a href="javascript:void(0);" class="text-muted">Bruce Caven</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
         </div>
     </div>
 </div>
