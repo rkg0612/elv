@@ -188,7 +188,7 @@
                     <div class="executive-articles d-flex align-items-start flex-column">
                         <div class="cs-logo">
                             <a href="javascript:void(0);" target="blank">
-                                <img width="150" height="39" src="https://massivepr.wpenginepowered.com/wp-content/uploads/Entreprenuer-150x39.png" alt="Entreprenuer">
+                                <img width="150" height="39" src="{{ asset('images/publications/entrepreneur.webp') }}" alt="Entreprenuer">
                             </a>
                         </div>
                         <h2>
@@ -209,7 +209,7 @@
                     <div class="executive-articles d-flex align-items-start flex-column">
                         <div class="cs-logo">
                             <a href="javascript:void(0);" target="blank">
-                                <img width="150" height="39" src="https://massivepr.wpenginepowered.com/wp-content/uploads/Entreprenuer-150x39.png" alt="Entreprenuer">
+                                <img width="150" height="39" src="{{ asset('images/publications/benzinga.webp') }}" alt="Entreprenuer">
                             </a>
                         </div>
                         <h2>
@@ -230,7 +230,7 @@
                     <div class="executive-articles d-flex align-items-start flex-column">
                         <div class="cs-logo">
                             <a href="javascript:void(0);" target="blank">
-                                <img width="150" height="39" src="https://massivepr.wpenginepowered.com/wp-content/uploads/Entreprenuer-150x39.png" alt="Entreprenuer">
+                                <img width="150" height="39" src="{{ asset('images/publications/forbes.png') }}" alt="Entreprenuer">
                             </a>
                         </div>
                         <h2>

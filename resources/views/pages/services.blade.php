@@ -14,6 +14,7 @@
     @media (max-width: 991px) {
         .text-overlay {
             top: 0 !important;
+            position: relative;
         }
     }
 </style>
@@ -38,8 +39,8 @@
     </div>
 </div>
 <div class="position-relative overflow-hidden p-3 p-lg-5 text-start bg-light container-fluid">
-    <div class="row">
-        <div class="col-8 col-offset-2">
+    <div class="row justify-content-center">
+        <div class="col-md-12 col-sm-12">
             <div class="row">
                 <div class="col-md-6">
                     <div class="row g-0 border rounded flex-md-row mb-4 shadow-sm h-100 position-relative">
@@ -113,10 +114,46 @@
                     </div>
                 </div>
             </div>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <div class="row g-0 border rounded flex-md-row mb-4 shadow-sm h-100 position-relative">
+                        <div class="col-12">
+                            <div class="img-overlay">
+                                <img src="{{ asset('images/assets/audience.jpeg') }}" alt="" class="bd-placeholder-image img-fluid">
+                                <div class="text-overlay p-5">
+                                    <strong class="d-inline-block mb-2 text-primary">Enrich Your Audience.</strong>
+                                    <h3 class="mb-0">Social Media Posts</h3>
+                                    <p class="card-text mb-auto">It takes consistent efforts to become worthy of being a thought leader. Make it a point
+                                        to post your monthly thought leadership articles that hook your audience and engage with their comments. You
+                                        need to be active on social media to build a strong community of loyalists.</p>
+                                    <a href="javascript:void(0);" class="stretched-link">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row g-0 border rounded flex-md-row mb-4 shadow-sm h-100 position-relative">
+                        <div class="col-12">
+                            <div class="img-overlay">
+                                <img src="{{ asset('images/assets/clients.jpeg') }}" alt="" class="bd-placeholder-image img-fluid">
+                                <div class="text-overlay p-5">
+                                    <strong class="d-inline-block mb-2 text-success">Gain New Clients.</strong>
+                                    <h3 class="mb-0">Sponsored Audience Engagement</h3>
+                                    <p class="mb-auto">Build authority and trust real time, by providing on topic articles to audiences interested in
+                                        your industry or service. Thought leadership content receives more engagement and conversion then traditional
+                                        marketing - impart your brand's knowledge to target audiences.</p>
+                                    <a href="javascript:void(0);" class="stretched-link">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-<div class="position-relative overflow-hidden p-3 p-md-5 bg-dark text-bg-dark row">
+<div class="position-relative overflow-hidden p-3 p-md-5 bg-secondary text-bg-dark row">
     <div class="col-md-12 px-3 text-start">
         <h1 class="display-4 fw-normal">Exclusivity</h1>
         <h2 class="display-6 mt-4 mb-2">Exclusivity is also about being a higher caliber of company or service to your targeted local audience.</h2>

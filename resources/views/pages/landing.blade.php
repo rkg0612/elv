@@ -278,6 +278,10 @@
         height: 480px;
         width: 853.3px;
     }
+    
+    .bg-tertiary {
+        background-color: rgba(84, 88, 92, 1) !important;
+    }
 
     @media (max-width: 991px) {
         .video-container { 
@@ -394,7 +398,7 @@
         <a class="btn btn-outline-light" href="javascript:void(0);">Apply Today</a>
     </div>
 </div>
-<div class="position-relative overflow-hidden p-1 text-start bg-dark text-bg-dark text-center">
+<div class="position-relative overflow-hidden p-1 text-start bg-tertiary text-bg-dark text-center">
     <h1 class="display-3">Executive Leadership Voice Agency</h1>
 </div>
 <div class="text-center p-3 p-md-5">
@@ -438,7 +442,7 @@
     <div class="col-md-12 px-3 text-center">
         <h2 class="display-6">Content is the most effective way to turn readers into clients</h2>
         <div class="row justify-content-center">
-            <div class="col-4 text-center">
+            <div class="col-md-4 col-sm-12 text-center">
                     <div class="progress blue">
                         <span class="progress-left">
                             <span class="progress-bar"></span>
@@ -452,7 +456,7 @@
                     Companies that publish content capture 67% more leads per month.
                 </p>
             </div>
-            <div class="col-4 text-center">
+            <div class="col-md-4 col-sm-12 text-center">
                     <div class="progress yellow">
                         <span class="progress-left">
                             <span class="progress-bar"></span>
@@ -466,7 +470,7 @@
                     Most brands are investing 41% of their marketing budget on content.
                 </p>
             </div>
-            <div class="col-4 text-center">
+            <div class="col-md-4 col-sm-12 text-center">
                     <div class="progress orange">
                         <span class="progress-left">
                             <span class="progress-bar"></span>

@@ -11,6 +11,7 @@
         <footer class="bg-secondary text-bg-dark">
             <ul class="nav justify-content-center border-bottom pb-2 mb-2">
                 <li class="nav-item border-right"><a href="{{route('team')}}" style="padding-top: 0; padding-bottom: 0" class="nav-link text-black">Team</a></li>
+                <li class="nav-item border-right"><a href="{{route('services')}}" style="padding-top: 0; padding-bottom: 0" class="nav-link text-black">Services</a></li>
                 <li class="nav-item border-right"><a href="{{route('publications')}}" style="padding-top: 0; padding-bottom: 0" class="nav-link text-black">Publications</a></li>
                 <li class="nav-item border-right"><a href="{{route('faq')}}" style="padding-top: 0; padding-bottom: 0" class="nav-link text-black">FAQ's</a></li>
                 <li class="nav-item border-right"><a href="{{route('insights')}}" style="padding-top: 0; padding-bottom: 0" class="nav-link text-black">Insights</a></li>
