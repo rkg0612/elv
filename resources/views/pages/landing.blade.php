@@ -593,7 +593,7 @@
 </div>
 <div class="position-relative overflow-hidden p-3 p-md-5 row">
     <div class="col-12">
-        <div class="company-header-content">Published Posts by Bruce Caven</div>
+        <div class="company-header-content pb-0">Published Posts by Bruce Caven</div>
         <div id="block-executive" class="owl-carousel owl-theme">
             <div class="h-100">
                     <div class="executive-articles d-flex align-items-start flex-column">
