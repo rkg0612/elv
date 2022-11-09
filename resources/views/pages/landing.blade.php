@@ -395,7 +395,7 @@
         <p class="lead fw-normal">
             ELV Agency engages your audience and enhances your brand through monthly expert thought leadership articles in the world's most powerful publications.
         </p>
-        <a class="btn btn-outline-light" href="javascript:void(0);">Apply Today</a>
+        <a class="btn btn-outline-dark" href="javascript:void(0);">Apply Today</a>
     </div>
 </div>
 <div class="position-relative overflow-hidden p-1 text-start bg-tertiary text-bg-dark text-center">
