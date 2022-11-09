@@ -120,7 +120,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-12 text-start my-auto" style="background:linear-gradient(0deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('{{asset('images/assets/sales.png')}}'); background-size: cover;">
+        <div class="col-sm-12 text-start p-3 my-auto" style="background:linear-gradient(0deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('{{asset('images/assets/sales.png')}}'); background-size: cover;">
             <h2 class="display-6">Increase your sales.</h2>
             <p class="lead fw-normal">
                 Conversion rates are nearly 6x higher for content marketing adopters than non-adopters. An agile content platform that unifies content and supports consistency, creativity, and speed is the key to a modern digital content strategy. We give you access to the most authoritative editorial brands so you can skyrocket conversion.
