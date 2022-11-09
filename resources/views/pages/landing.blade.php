@@ -425,7 +425,7 @@
     </div>
 </div>
 <div class="position-relative overflow-hidden px-3 row">
-    <div class="col-md-6 px-5 my-auto text-start">
+    <div class="col-md-6 p-3 my-auto text-start">
         <h2 class="display-6">Competitive Edge</h2>
         <p class="lead fw-normal">
             ELV Agency selects the best-in-class companies within a geo region for each category - once contracted, you become the exclusive featured company in your area.
@@ -436,7 +436,6 @@
         <img src="{{asset('images/assets/Main 1 - Competitive Edge - ace out of sleeve.jpg')}}" alt="" class="img-fluid">
     </div>
 </div>
-<hr>
 <div class="position-relative overflow-hidden p-3 p-md-5 bg-light row">
     <div class="col-md-12 px-3 text-center">
         <h2 class="display-6">Content is the most effective way to turn readers into clients</h2>
