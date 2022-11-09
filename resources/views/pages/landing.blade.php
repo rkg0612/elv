@@ -411,7 +411,6 @@
         class="video-container">
     </iframe>
 </div>
-<hr>
 <div class="position-relative overflow-hidden p-3 p-md-5 bg-dark row text-bg-dark">
     <div class="col-md-2"></div>
     <div class="col-md-10 px-3 text-end">
@@ -484,7 +483,7 @@
                     53% of marketers say blogging is their top content marketing priority.
                 </p>
             </div>
-            <div class="col-3 text-center">
+            <div class="col-md-4 col-sm-12 text-center">
                     <h1 class="display-1">13x</h1>
                 <p>
                     Businesses who prioritize blogging yield 13x more positive ROI.
