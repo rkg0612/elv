@@ -6,7 +6,7 @@
             <p class="lead fw-normal">
                 If you're a founder, brand or company interested in growing your audience through high-profile content marketing, reach out to our team to start a consultation.
             </p>
-            <a class="btn btn-outline-light btn-lg mb-3" href="{{ route('apply') }}">Apply Today</a>
+            <a class="btn btn-outline-light btn-lg mb-5" href="{{ route('apply') }}">Apply Today</a>
         </div>
         <footer class="bg-secondary text-bg-dark">
             <ul class="nav justify-content-center border-bottom pb-2 mb-2">
