@@ -771,13 +771,15 @@
 </script>
 <script>
     $(document).ready(function() {
-        var elementHeights = $('.boxes').map(function() {
-            return $(this).height();
-        }).get();
-    
-        var maxHeight = Math.max.apply(null, elementHeights);
-    
-        $('.boxes').height(maxHeight);
+        if(! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+            var elementHeights = $('.boxes').map(function() {
+                return $(this).height();
+            }).get();
+        
+            var maxHeight = Math.max.apply(null, elementHeights);
+        
+            $('.boxes').height(maxHeight);
+        }
     });
 </script>
 @endsection
