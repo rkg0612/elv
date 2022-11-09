@@ -697,7 +697,7 @@
         </div>
     </div>
 </div>
-<div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+<div class="d-md-flex d-none flex-md-equal w-100 my-md-3 ps-md-3">
     <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
         <div class="my-3 boxes py-3">
             <h2 class="display-5">High-Profile Publishing</h2>
@@ -711,7 +711,21 @@
         </div>
     </div>
 </div>
-<div class="position-relative overflow-hidden pb-4 row">
+<div class="d-md-none d-sm-flex flex-md-equal w-100 my-md-3 ps-md-3">
+    <div class="bg-dark text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 boxes py-3">
+            <h2 class="display-5">High-Profile Publishing</h2>
+            <p class="lead">Our partners will publish and feature your articles, ensuring your branded content is featured in the nation's most read digital publications.</p>
+        </div>
+    </div>
+    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 boxes p-3">
+            <h2 class="display-5">Brand Promotion</h2>
+            <p class="lead">We'll work with you to market and promote your content, so your company expands its reach, increases its sales, and grows its digital audience.</p>
+        </div>
+    </div>
+</div>
+<div class="position-relative overflow-hidden pt-4 pb-4 row">
     <div class="col-md-12 text-center">
         <a class="btn btn-outline-secondary btn-lg" href="javascript:void(0);">Apply Today</a>
     </div>
