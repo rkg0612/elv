@@ -2,7 +2,16 @@
 @section('styles')
 <style>
 
-.post-image {
+    a {
+        text-decoration: none;
+    }
+
+    .feature-icon-small {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .post-image {
         position: relative;
         margin-bottom: 10px;
     }
@@ -79,7 +88,7 @@
         text-transform: uppercase;
         font-size: 12px;
     }
-
+    
     .cropped {
         height: 20rem;
         width: 100%;
