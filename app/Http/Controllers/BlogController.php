@@ -15,4 +15,9 @@ class BlogController extends Controller
     {
         return view('pages.blogs.2');
     }
+
+    public function leadershipLessonsFromNotableThoughtLeaders()
+    {
+        return view('pages.blogs.3');
+    }
 }

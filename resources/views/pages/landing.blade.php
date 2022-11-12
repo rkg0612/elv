@@ -284,13 +284,19 @@
     }
 
     .cropped {
-        height: 20rem;
+        height: 17rem;
         width: 100%;
         overflow: hidden;
     }
 
     .cropped img {
         width: 100%;
+    }
+
+    @media (max-width: 1200px) {
+        .cropped {
+            height: 12rem !important;
+        }
     }
 
     @media (max-width: 991px) {
@@ -304,6 +310,10 @@
         .video-container { 
             height: 240px;
             width: 426.72px;
+        }
+
+        .cropped {
+            height: 17rem !important;
         }
     }
 
@@ -511,97 +521,7 @@
     </div>
 </div>
 @include('includes.agency-posts')
-<div class="position-relative overflow-hidden p-3 p-md-5 row">
-    <div class="col-12">
-        <div class="company-header-content pb-0">Published Posts by Bruce Caven</div>
-        <div id="block-executive" class="owl-carousel owl-theme">
-            <div class="h-100">
-                    <div class="executive-articles d-flex align-items-start flex-column">
-                        <div class="cs-logo">
-                            <a href="javascript:void(0);" target="blank">
-                                <img width="150" height="39" src="{{ asset('images/publications/entrepreneur.webp') }}" alt="Entreprenuer">
-                            </a>
-                        </div>
-                        <h2>
-                            <a href="javascript:void(0);">This is a sample Executive Article</a>
-                        </h2>
-                        <div class="excerpt">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet molestias repudiandae nobis impedit facere, delectus unde! Iusto ipsam pariatur quas.</p>
-                        </div>
-                        <div class="d-flex justify-content-between mt-auto w-100">
-                            <a href="javascript:void(0);">Read Article</a>
-                            <div class="author">
-                                <a href="javascript:void(0);" class="text-muted">Bruce Caven</a>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            <div class="h-100">
-                    <div class="executive-articles d-flex align-items-start flex-column">
-                        <div class="cs-logo">
-                            <a href="javascript:void(0);" target="blank">
-                                <img width="150" height="39" src="{{ asset('images/publications/benzinga.webp') }}" alt="Entreprenuer">
-                            </a>
-                        </div>
-                        <h2>
-                            <a href="javascript:void(0);">This is a sample Executive Article</a>
-                        </h2>
-                        <div class="excerpt">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate perferendis officiis neque maxime perspiciatis sit vero id placeat, tempora nesciunt ducimus? Neque velit mollitia officia vero perspiciatis, tempore corporis consequuntur?</p>
-                        </div>
-                        <div class="d-flex justify-content-between mt-auto w-100">
-                            <a href="javascript:void(0);">Read Article</a>
-                            <div class="author">
-                                <a href="javascript:void(0);" class="text-muted">Bruce Caven</a>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            <div class="h-100">
-                    <div class="executive-articles d-flex align-items-start flex-column">
-                        <div class="cs-logo">
-                            <a href="javascript:void(0);" target="blank">
-                                <img width="150" height="39" src="{{ asset('images/publications/forbes.png') }}" alt="Entreprenuer">
-                            </a>
-                        </div>
-                        <h2>
-                            <a href="javascript:void(0);">This is a sample Executive Article</a>
-                        </h2>
-                        <div class="excerpt">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet molestias repudiandae nobis impedit facere, delectus unde! Iusto ipsam pariatur quas.</p>
-                        </div>
-                        <div class="d-flex justify-content-between mt-auto w-100">
-                            <a href="javascript:void(0);">Read Article</a>
-                            <div class="author">
-                                <a href="javascript:void(0);" class="text-muted">Bruce Caven</a>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            <div class="h-100">
-                    <div class="executive-articles d-flex align-items-start flex-column">
-                        <div class="cs-logo">
-                            <a href="javascript:void(0);" target="blank">
-                                <img width="150" height="39" src="{{ asset('images/publications/benzinga.webp') }}" alt="Entreprenuer">
-                            </a>
-                        </div>
-                        <h2>
-                            <a href="javascript:void(0);">This is a sample Executive Article</a>
-                        </h2>
-                        <div class="excerpt">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate perferendis officiis neque maxime perspiciatis sit vero id placeat, tempora nesciunt ducimus? Neque velit mollitia officia vero perspiciatis, tempore corporis consequuntur?</p>
-                        </div>
-                        <div class="d-flex justify-content-between mt-auto w-100">
-                            <a href="javascript:void(0);">Read Article</a>
-                            <div class="author">
-                                <a href="javascript:void(0);" class="text-muted">Bruce Caven</a>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-        </div>
-    </div>
-</div>
+@include('includes.article-posts')
 <hr>
 <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
     <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
