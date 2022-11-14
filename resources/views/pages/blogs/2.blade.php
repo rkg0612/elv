@@ -27,13 +27,22 @@
     <div class="position-relative overflow-hidden p-3 p-md-3 text-start bg-light text-center">
         <div class="col-md-12 px-3 text-center">
             <div class="maintxt">
-                <h1 class="display-3 fw-normal m-0 text-white p-3">Mastering Thought Leadership in 2023</h1>
             </div>
             
         </div>
     </div>
     <div class="position-relative overflow-hidden px-3 pt-0 pb-3 pb-md-3 px-md-3 text-start bg-light">
         <div class="col-md-12 px-lg-3 pb-lg-3 pt-3">
+            <h1 class="display-3 fw-normal m-0 text-center">Mastering Thought Leadership in 2023</h1>
+            <hr>
+            <div class="d-flex justify-content-between mb-4">
+                <div class="text-muted">
+                    <small>Bruce Caven</small>
+                </div>
+                <div class="text-muted">
+                    <small>{{ date('F j, Y', strtotime(now())) }}</small>
+                </div>
+            </div>
             <p class="fw-normal">
                 How much thought have you given thought leadership this year? Perhaps you started the year strong, building your
                 thought leadership strategy with gusto. But then your plan fizzled away as other areas of your business needed your

@@ -1,13 +1,18 @@
 @extends('layout.main')
 @section('content')
 <div class="container">
-    <div class="position-relative overflow-hidden p-3 p-md-3 text-start bg-light text-center">
-        <div class="col-md-12 px-3 text-center">
-            <h1 class="display-3 fw-normal m-0 p-3">Brand Trust Should Be a Priority in Your Strategy</h1>
-        </div>
-    </div>
     <div class="position-relative overflow-hidden px-3 pt-0 pb-3 pb-md-3 px-md-3 text-start bg-light">
         <div class="col-md-12 px-lg-3 pb-lg-3 pt-3">
+            <h1 class="display-3 fw-normal m-0 text-center">Brand Trust Should Be a Priority in Your Strategy</h1>
+            <hr>
+            <div class="d-flex justify-content-between mb-4">
+                <div class="text-muted">
+                    <small>Bruce Caven</small>
+                </div>
+                <div class="text-muted">
+                    <small>{{ date('F j, Y', strtotime(now())) }}</small>
+                </div>
+            </div>
             <p class="fw-normal">
                 When customers interact with a brand, they do so with a level of trust that’s in large part influenced by the brand itself.
             </p>
