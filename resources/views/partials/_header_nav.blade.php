@@ -1,5 +1,5 @@
 <header class="navbar navbar-expand-lg navbar-dark bd-navbar sticky-top p-0">
-    <nav class="container-xxl bd-gutter bg-dark flex-wrap flex-lg-nowrap" aria-label="Main navigation">
+    <nav class="container-fluid bd-gutter bg-dark flex-wrap flex-lg-nowrap" aria-label="Main navigation">
         <div class="d-lg-none" style="width: 1.5rem;"></div>
 
         <a class="navbar-brand p-0 me-0 me-lg-2" href="/" aria-label="Bootstrap">
