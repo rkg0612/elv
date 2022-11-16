@@ -64,7 +64,7 @@
 
     .executive-articles .cs-logo img {
         height: 20px;
-        width: auto;
+        width: auto !important;
     }
 
     .executive-articles h2 {
