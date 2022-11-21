@@ -139,12 +139,35 @@
                             <label for="revenue" class="form-label">Last 12 Months of Revenue<span class="text-danger">*</span></label>
                             <select name="revenue" id="revenue" class="form-control">
                                 <option value="" disabled selected>--Please Select--</option>
+                                <option value="Under $100,000">Under $100,000</option>
+                                <option value="$100,000 - $249,999">$100,000 - $249,999</option>
+                                <option value="$250,000 - $499,999">$250,000 - $499,999</option>
+                                <option value="$500,000 - $749,000">$500,000 - $749,000</option>
+                                <option value="$750,000 - $999,999">$750,000 - $999,999</option>
+                                <option value="$1,000,000 - $4,999,999">$1,000,000 - $4,999,999</option>
+                                <option value="$5,000,000 - $9,999,999">$5,000,000 - $9,999,999</option>
+                                <option value="$10,000,000 - $24,999,999">$10,000,000 - $24,999,999</option>
+                                <option value="$25,000,000 - $49,999,999">$25,000,000 - $49,999,999</option>
+                                <option value="$50,000,000 - $99,999,999">$50,000,000 - $99,999,999</option>
+                                <option value="$100,000,000 plus">$100,000,000 plus</option>
+                                <option value="Did not need to raise funding">Did not need to raise funding</option>
+                                <option value="Undisclosed">Undisclosed</option>
                             </select>
                         </div>
                         <div class="col-sm-6">
                             <label for="funding" class="form-label">Funding Acquired Since Inception<span class="text-danger">*</span></label>
                             <select name="funding" id="funding" class="form-control">
                                 <option value="" disabled selected>--Please Select--</option>
+                                <option value="$0 - $249,999">$0 - $249,999</option>
+                                <option value="$250,000 - $499,999">$250,000 - $499,999</option>
+                                <option value="$500,000 - $999,999">$500,000 - $999,999</option>
+                                <option value="$1,000,000 - $2,999,999">$1,000,000 - $2,999,999</option>
+                                <option value="$3,000,000 - $4,999,999">$3,000,000 - $4,999,999</option>
+                                <option value="$5,000,000 - $9,999,999">$5,000,000 - $9,999,999</option>
+                                <option value="$10,000,000 - $19,999,999">$10,000,000 - $19,999,999</option>
+                                <option value="$20,000,000 - $99,999,999">$20,000,000 - $99,999,999</option>
+                                <option value="$100,000,000 plus">$100,000,000 plus</option>
+                                <option value="Undisclosed">Undisclosed</option>
                             </select>
                         </div>
                         <div class="col-sm-12">
